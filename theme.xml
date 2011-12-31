@@ -6,13 +6,14 @@
 	<author url="http://habariproject.org/">The Habari Community</author>
 	<author url="http://randywalker.net/">Randy Walker</author>
 	<author url="http://chrismeller.com/">Chris Meller</author>
+	<author url="http://mikelietz.org/">Mike Lietz</author>
 
 
-	<version>16</version>
+	<version>20</version>
 	<url>http://habariproject.org/</url>
 	<description><![CDATA[A simple theme. Original author Randy Walker.]]></description>
 
-	<copyright>2010</copyright>
+	<copyright>2009-2012</copyright>
 
 	<template_engine>rawphpengine</template_engine>
 

@@ -5,8 +5,8 @@
 				<div class="entry">
 					<ul>
 						<?php 
-						foreach(Tags::get() as $tag) {
-							echo '<li><a href="' . URL::get('display_entries_by_tag', array('tag'=>$tag->slug)) . '">' . $tag->tag . '</a> ('. $tag->count . ')</li>';
+						foreach(Tags::vocabulary()->get_tree() as $tag) {
+							echo '<li><a href="' . URL::get('display_entries_by_tag', array('tag'=>$tag->term)) . '">' . $tag->term_display . '</a> ('. $tag->count . ')</li>';
 						}
 						?>
 					</ul>
