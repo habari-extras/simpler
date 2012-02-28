@@ -24,7 +24,7 @@
 			</div>
 		</div>
 
-		<?php $theme->footer(); ?>
+		<?php echo $theme->footer(); ?>
 
 	</body>
 </html>
